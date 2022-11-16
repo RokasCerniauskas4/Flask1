@@ -1,0 +1,16 @@
+ON CMD:
+<navigate to your project folder>
+git clone <url>
+cd <project_name>
+python -m venv venv  (pasidarome virtualia aplinka)
+<open project <project_name> directory with your IDE (Pycharm/Vscode)
+
+Sukuriame requirements:
+pip freeze > requirements.txt
+
+(pip status)
+
+git add .
+git commit -m "pavadinimas commito"
+git push
+
